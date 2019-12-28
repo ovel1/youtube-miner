@@ -61,7 +61,7 @@ class Miner(BasePollerFT):
             LOG.error('%s - no data-context-item-id attribute', self.name)
             return []
 
-        indicator = 'www.youtube.com/watch?v={}'.format(video_id)
+        indicator = '*.youtube.com/watch?v={}'.format(video_id)
         value = {
             'type': 'URL',
             'confidence': 100
@@ -134,7 +134,7 @@ class PlaylistMiner(BasePollerFT):
             LOG.error('%s - no data-context-item-id attribute', self.name)
             return []
 
-        indicator = 'www.youtube.com/watch?v={}'.format(video_id)
+        indicator = '*.youtube.com/watch?v={}'.format(video_id)
         value = {
             'type': 'URL',
             'confidence': 100
@@ -208,7 +208,7 @@ class ChannelMiner(BasePollerFT):
             LOG.error('%s - no data-context-item-id attribute', self.name)
             return []
 
-        indicator = 'www.youtube.com/watch?v={}'.format(video_id)
+        indicator = '*.youtube.com/watch?v={}'.format(video_id)
         value = {
             'type': 'URL',
             'confidence': 100

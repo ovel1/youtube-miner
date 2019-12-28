@@ -4,6 +4,7 @@ MineMeld Miner for Youtube channels implemented as an extension
 ## How it works
 
 This simple Miner periodically checks a Youtube channel URL (https://www.youtube.com/user/{username}/videos) for new videos and extract URLs of the videos.
+*** replaced "www" to "*" tomake compatible with browsers on mobile devices
 
 ## Installation
 
