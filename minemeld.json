@@ -1,10 +1,10 @@
 {
-    "version": "0.5",
+    "version": "0.5.1",
     "name": "youtube-miner",
     "author": "Palo Alto Networks",
     "author_email": "techbizdev@paloaltonetworks.com",
     "description": "Sample MineMeld node extension for mining Youtube API",
-    "url": "https://github.com/PaloAltoNetworks/youtube-miner",
+    "url": "https://github.com/ovel1/youtube-miner",
     "entry_points": {
         "minemeld_nodes": {
             "youtubeminer.Miner": "youtubeminer.node:Miner",
