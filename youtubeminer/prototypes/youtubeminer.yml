@@ -44,7 +44,7 @@ prototypes:
       API Key and a playlist_id to use this.
     config:
       # set the playlist_id to omicron's videos
-      playlist_id: UUQ2S-1cltR5ybGS_JXkKpNg
+      playlist_id: PLAs-xxxxxxxx
       # set API Key
       api_key: '<place a valid API Key here>'
       # source name used in the indicators
