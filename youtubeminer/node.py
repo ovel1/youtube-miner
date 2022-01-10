@@ -218,7 +218,7 @@ class ChannelMiner(BasePollerFT):
     
 class EmbedChMiner(BasePollerFT):
     def configure(self):
-        super(ChannelMiner, self).configure()
+        super(EmbedChMiner, self).configure()
 
         self.polling_timeout = self.config.get('polling_timeout', 20)
         self.verify_cert = self.config.get('verify_cert', True)
