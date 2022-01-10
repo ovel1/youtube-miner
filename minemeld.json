@@ -1,5 +1,5 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "name": "youtube-miner",
     "author": "Palo Alto Networks",
     "author_email": "techbizdev@paloaltonetworks.com",
@@ -9,7 +9,8 @@
         "minemeld_nodes": {
             "youtubeminer.Miner": "youtubeminer.node:Miner",
             "youtubeminer.PlaylistMiner": "youtubeminer.node:PlaylistMiner",
-            "youtubeminer.ChannelMiner": "youtubeminer.node:ChannelMiner"
+            "youtubeminer.ChannelMiner": "youtubeminer.node:ChannelMiner",
+            "youtubeminer.EmbedChMiner": "youtubeminer.node:EmbedChMiner"
         },
         "minemeld_prototypes": {
             "youtubeminer.prototypes": "youtubeminer:prototypes"
